@@ -15,7 +15,7 @@ env\Scripts\activate
 flask run
 ```
 
-# How to start the react-application & react local server. You will need npm and react-scripts.
+# How to start the react-application & react local server.
 ## step 3
 
 ## For windows:
@@ -28,6 +28,9 @@ npm install react-scripts
 npm install react-dom
 npm install react
 ```
+
+## For linux
+I already added the dependencies.
 
 (new terminal)
 
