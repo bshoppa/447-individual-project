@@ -20,7 +20,14 @@ flask run
 
 ## For windows:
 You will need to install and build react packages for windows. The assets do not exist in this project.
-(npm install react-scripts)
+
+If you have npm installed, you can add the dependencies like this (in terminal, in the project folder):
+
+```sh
+npm install react-scripts
+npm install react-dom
+npm install react
+```
 
 (new terminal)
 
