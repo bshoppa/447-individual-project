@@ -21,7 +21,7 @@ class User(Base):
         return "<User(name='%s', marks='%i')>" % (
                         self.name, self.marks)
 
-engine = create_engine('sqlite:///:memory:', echo=True)
+engine = create_engine('sqlite:///:memory:?check_same_thread=False', echo=True)
 Base.metadata.create_all(engine)
 
 Session = sessionmaker(bind=engine)
